@@ -1,0 +1,9 @@
+akun admin 
+
+email : iwanekaputra@gmail.com
+password : password
+
+akun siswa
+email : maman@gmail.com
+password : password
+
