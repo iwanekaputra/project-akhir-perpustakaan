@@ -15,19 +15,17 @@ use App\Models\Buku;
     <div class="row">
       @foreach( $favBooks as $fav)
       @php
-      $buku = Buku::where("judul", $fav->judul)->get();
+        $buku = Buku::where("judul", $fav->judul)->get();
 
       @endphp
-      <div class="col-md-6 d-flex" data-aos="fade-right">
-        <div class="card">
-          <div class="card-img">
-            <img src="{{ asset('admin/vendors/images/'.$buku[0]->cover) }}" alt="...">
-          </div>
-          <div class="card-body">
-            <h5 class="card-title"><a href="">{{ $fav->judul }}</a></h5>
-            <p class="card-text">{{ $buku[0]->deskripsi }}</p>
-          </div>
-        </div>
+      <div class="col-md-4" data-aos="fade-right">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{{ asset('admin/vendors/images/'.$buku[0]->cover) }}" alt="Card image cap">
+            <div class="mt-5">
+                <h5 class="card-title"><a href="">{{ $fav->judul }}</a></h5>
+                        <p class="card-text">{!! $buku[0]->deskripsi !!}</p>
+            </div>
+            </div>
       </div>
       @endforeach
     </div>
