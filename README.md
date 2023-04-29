@@ -1,6 +1,6 @@
 <h1 align="center">Selamat datang di repository Perpustakaan! 👋🏻</h1>
 
-![wanime-preview](https://github.com/iwanekaputra/laravel-spp/blob/main/1.png?raw=true)
+![wanime-preview](https://github.com/iwanekaputra/laravel-perpustakaan/blob/main/simpeku.png?raw=true)
 
 <p></p>
 
@@ -114,7 +114,7 @@ Berhubung Project ini saya selesaikan sendiri, namun banyak fitur dan banyak hal
 <h2 id="lisensi">📝 Lisensi</h2>
 
 - Copyright © 2022 IWAN EKA PUTRA
-- Wanime adalah aplikasi web open-source 
+- Wanime adalah aplikasi web open-source    
 
 ---
 
